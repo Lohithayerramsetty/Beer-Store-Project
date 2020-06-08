@@ -1,0 +1,54 @@
+<head>                   
+    <link rel="stylesheet" href="style/form.css"/>
+    <link rel="stylesheet" href="style/style.css"/>
+    <title>Beer Store</title>
+<body>
+    <nav>
+        <div class="topnav">
+            <a class="logo" href="index.html"><img src="images/logo.png"></a>
+            <a class="active" href="index.html">Home</a>
+            <a class="active" href="all-beers.html">See all beers</a>
+            <a class="active" href="order.html">Order a beer</a>
+            <a class="right active" href="register.html">Register</a>
+            <a class="right active" href="login.html">Log in</a>
+        </div>
+    </nav>
+    <main>
+        <center>
+            <h1>Order a Beer</h1>
+            <br/>
+            <form>
+                <label>Brand</label>
+                <select>
+                    <option selected disabled>select a brand</option>
+                    <option>Corona Extra 330ml</option>
+                    <option>Stella Artois 500ml</option>
+                    <option>Carlsberg 330ml</option>
+                    <option>Heineken 330ml</option><br/>
+                </select>
+    
+                <label>Quantity</label>
+                <input type="number" min="1"max="15"
+                 placeholder="Enter amount of beers(1-15)"><br/>
+                <label>Destination</label>
+                <select>
+                    <option Selected disabled>select Destination</option>
+                    <option>Stockholm</option>
+                    <option>Alvsjo</option>
+                    <option>Huddinge</option>
+                    <option>Flemingsberg</option><br/>
+                </select>   
+                
+                <label>Enter your Date of Birth</label>
+                <input placeholder="yyyy-mm-dd" type="text">
+
+                <label>Got an Opinion,commemt,recommendation?Share it with us!</label>
+                    <input placeholder="Share your Opinion with us" type="text"><br/>
+
+                <input type="Submit">
+            </form>
+        </center>
+    </main>
+</body>
+</head>
+</html>
